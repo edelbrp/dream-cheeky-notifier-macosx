@@ -3,7 +3,7 @@ Dream Cheeky Notifier for MacOS-X
 
 This is a very basic command line tool for illuminating a Dream Cheeky USB notifier appliance in any color.
 
-        The result of this project is a command line tool that will find all Dream Cheeky webmail notifier
+	The result of this project is a command line tool that will find all Dream Cheeky webmail notifier
   	devices on the USB bus(es), activate their LEDs and set them to the color provided:
 
 		Dream\ Cheeky\ Notifier R G B [A]
