@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		4ADC34C61769645700084503 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 4ADC34C51769645700084503 /* main.c */; };
 		4ADC34C81769645700084503 /* Dream_Cheeky_Notifier_Tool.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4ADC34C71769645700084503 /* Dream_Cheeky_Notifier_Tool.1 */; };
+		4ADC34CF176964FB00084503 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ADC34CE176964FB00084503 /* CoreFoundation.framework */; };
+		4ADC34D11769650200084503 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ADC34D01769650200084503 /* IOKit.framework */; };
+		4ADC34D31769650800084503 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ADC34D21769650800084503 /* Carbon.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +31,9 @@
 		4ADC34C21769645700084503 /* Dream Cheeky Notifier Tool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Dream Cheeky Notifier Tool"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ADC34C51769645700084503 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		4ADC34C71769645700084503 /* Dream_Cheeky_Notifier_Tool.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Dream_Cheeky_Notifier_Tool.1; sourceTree = "<group>"; };
+		4ADC34CE176964FB00084503 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		4ADC34D01769650200084503 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		4ADC34D21769650800084503 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +41,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ADC34D31769650800084503 /* Carbon.framework in Frameworks */,
+				4ADC34D11769650200084503 /* IOKit.framework in Frameworks */,
+				4ADC34CF176964FB00084503 /* CoreFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +53,9 @@
 		4ADC34B91769645700084503 = {
 			isa = PBXGroup;
 			children = (
+				4ADC34D21769650800084503 /* Carbon.framework */,
+				4ADC34D01769650200084503 /* IOKit.framework */,
+				4ADC34CE176964FB00084503 /* CoreFoundation.framework */,
 				4ADC34C41769645700084503 /* Dream Cheeky Notifier Tool */,
 				4ADC34C31769645700084503 /* Products */,
 			);
